@@ -3,6 +3,7 @@
  환경설정까지!
 ## 다운 명령어
 ```
+ cd ~/Desktop
  git clone https://github.com/Mins97/react_native_mac_starter.git starter
 ```
 ## 실행 명령어
