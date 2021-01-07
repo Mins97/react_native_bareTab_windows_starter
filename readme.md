@@ -3,7 +3,7 @@
  환경설정까지!
 
 ## 실행 명령어
- cd testapp && react-native run-android
+ cd testapp && npm i && npm react-native run-android
  또는
- cd testapp && react-native run-ios
+ cd testapp && npm i && react-native run-ios
  
