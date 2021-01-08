@@ -1,14 +1,20 @@
 # 맥으로 시작할 수 있는 스타터 킷입니다.
  sh stater.sh 를 하면 바탕화면에 새 프로젝트를 만들어줍니다.
  환경설정까지!
+ ROOT는 메인 폴더입니다.
+ AppName은 앱의 이름입니다.
+ MacName는 맥의 계정 이름입니다.
 ```
-cd ~/Desktop &&
-react-native init __myNewApp__ --version react-native@0.60.0﻿ &&
-cd ~/Desktop/__myNewApp__/android &&
-echo sdk.dir = /Users/__myName__/Library/Android/sdk > local.properties &&
+ROOT=~/Desktop
+AppName=myNewApp
+MacName=mac
+cd $ROOT &&
+react-native init $AppName --version react-native@0.60.0 &&
+cd $ROOT/$AppName/android &&
+echo sdk.dir = /Users/$MacName/Library/Android/sdk > local.properties &&
 cd .. &&
-export ANDROID_SDK=/Users/mac/Library/Android/sdk &&
-echo 'export PATH=/Users/mac/Library/Android/sdk/platform-tools:/Users/mac/.nvm/versions/node/v12.13.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/mac/.nvm/versions/node/v12.13.0/bin:/Users/mac/.rvm/bin' >>~/.bash_profile &&
+export ANDROID_SDK=/Users/$MacName/Library/Android/sdk &&
+echo 'export PATH=/Users/$MacName/Library/Android/sdk/platform-tools:/Users/mac/.nvm/versions/node/v12.13.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/mac/.nvm/versions/node/v12.13.0/bin:/Users/mac/.rvm/bin' >>~/.bash_profile &&
 source ~/.bash_profile
 ```
 ## 다운 명령어
