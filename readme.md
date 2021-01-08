@@ -5,6 +5,10 @@
  AppName은 앱의 이름입니다.
  MacName는 맥의 계정 이름입니다.
 ```
+sh starter.sh
+```
+    또는
+```
 ROOT=~/Desktop
 AppName=myNewApp
 MacName=mac
@@ -19,21 +23,21 @@ source ~/.bash_profile
 ```
 ## 다운로드 명령어
 ```
- cd ~/Desktop
- git clone https://github.com/Mins97/react_native_mac_starter.git starter
- cd ~/Desktop/starter
+cd ~/Desktop
+git clone https://github.com/Mins97/react_native_mac_starter.git starter
+cd ~/Desktop/starter
 ```
 ## 실행 명령어
 ```
- cd testapp && npm i && npm react-native run-android
+cd testapp && npm i && npm react-native run-android
 ```
- 또는
+    또는
 ```
- cd testapp && npm i && react-native run-ios
+cd testapp && npm i && react-native run-ios
 ```
 
 ### 버전
-node 12.13.0
+node 12.13.0 \n
 watchman 4.9.0
 react-native 0.60.0 (fix)
 android API 28
