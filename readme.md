@@ -17,7 +17,7 @@ export ANDROID_SDK=/Users/$MacName/Library/Android/sdk &&
 echo 'export PATH=/Users/$MacName/Library/Android/sdk/platform-tools:/Users/mac/.nvm/versions/node/v12.13.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/mac/.nvm/versions/node/v12.13.0/bin:/Users/mac/.rvm/bin' >>~/.bash_profile &&
 source ~/.bash_profile
 ```
-## 다운 명령어
+## 다운로드 명령어
 ```
  cd ~/Desktop
  git clone https://github.com/Mins97/react_native_mac_starter.git starter
@@ -31,3 +31,9 @@ source ~/.bash_profile
 ```
  cd testapp && npm i && react-native run-ios
 ```
+
+### 버전
+node 12.13.0
+watchman 4.9.0
+react-native 0.60.0 (fix)
+android API 28
