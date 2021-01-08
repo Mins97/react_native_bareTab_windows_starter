@@ -1,0 +1,1 @@
+mv testapp .. && rm -rf starter
