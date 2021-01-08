@@ -6,7 +6,11 @@
  AppName은 앱의 이름입니다.
  MacName는 맥의 계정 이름입니다.
 ```
+# 시작하기
 ```
+cd ~/Desktop
+git clone https://github.com/Mins97/react_native_mac_starter.git starter
+cd ~/Desktop/starter
 sh starter.sh
 ```
 또는
