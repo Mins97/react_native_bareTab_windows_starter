@@ -1,4 +1,4 @@
-ROOT=~/Desktop/a
+ROOT=~/Desktop
 AppName=myNewApp
 MacName=mac
 cd $ROOT &&
