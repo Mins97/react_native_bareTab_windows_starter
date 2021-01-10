@@ -1,6 +1,6 @@
 # 윈도우 시작할 수 있는 스타터 킷입니다.
-tabs는 expo init bare tabs 로 만들어졌습니다.
 ```
+tabs는 expo init bare tabs 로 만들어졌습니다.
 ```
 # 시작하기
 ```
