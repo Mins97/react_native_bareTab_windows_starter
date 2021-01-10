@@ -1,6 +1,9 @@
 # 윈도우 시작할 수 있는 스타터 킷입니다.
 ```
 tabs는 expo init bare tabs 로 만들어졌습니다. 기본 탭입니다.
+npm install @react-navigation/native @react-navigation/stack
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+npm install @react-navigation/bottom-tabs
 nav는 expo init bare tabs/tabs 로 만들어졌습니다. 사용자 컴포넌트로 간단해진 네비게이션입니다.
 login는 expo init bare tabs/nav 로 만들어졌습니다. 사용자 컴포넌트로 이루어진 로그인 화면입니다.
 ```
